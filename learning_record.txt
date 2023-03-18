@@ -1,0 +1,2 @@
+git add <file>  // 添加文件
+git commit -m<message>  // 添加修改信息
