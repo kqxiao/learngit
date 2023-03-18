@@ -14,3 +14,14 @@ git log --pretty=oneline    // 更简单
 $ git reset --hard HEAD^    // 回到上个版本
 $ git reset --haed <commit_id>  // 回到版本号
 $ git reflog    // 查看历史，查找版本号
+$ git checkout -- readme.txt // 丢弃工作区的修改， 没有add，回到和版本库一样的状态； 加入暂存库后又做修改，回到和暂存库一样的状态
+// checkout 实际上是用版本库里的版本替换工作区的版本
+
+$ git reset HEAD readme.txt // 如果提交到暂存区，回到head，回到最新版本，撤销提交到暂存区的修改
+
+$ rm <file>     // 删除文件
+$ git rm <file> 并且 commit // 从版本库中删掉
+// 删错了，版本库里还有 $ git checkout -- test.txt
+
+$ ssh-keygen -t rsa -C "youremail@example.com"  // 创建ssh key
+
