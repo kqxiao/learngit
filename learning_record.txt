@@ -7,3 +7,4 @@ git add <file>  // 添加文件
 git commit -m<message>  // 添加修改信息
 git status // 查看仓库当前状态
 git diff <file> // 查看difference，查看改变之后就可以放心提交给仓库，还是用add
+// add后，用git status, 可看到可commit的
