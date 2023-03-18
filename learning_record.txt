@@ -8,3 +8,9 @@ git commit -m<message>  // 添加修改信息
 git status // 查看仓库当前状态
 git diff <file> // 查看difference，查看改变之后就可以放心提交给仓库，还是用add
 // add后，用git status, 可看到可commit的
+git log // 查看提交日志 h 查看帮助 q 退出
+git log --pretty=oneline    // 更简单
+
+$ git reset --hard HEAD^    // 回到上个版本
+$ git reset --haed <commit_id>  // 回到版本号
+$ git reflog    // 查看历史，查找版本号
