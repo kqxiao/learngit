@@ -12,7 +12,7 @@ git log // 查看提交日志 h 查看帮助 q 退出
 git log --pretty=oneline    // 更简单
 
 $ git reset --hard HEAD^    // 回到上个版本
-$ git reset --haed <commit_id>  // 回到版本号
+$ git reset --hard <commit_id>  // 回到版本号
 $ git reflog    // 查看历史，查找版本号
 $ git checkout -- readme.txt // 丢弃工作区的修改， 没有add，回到和版本库一样的状态； 加入暂存库后又做修改，回到和暂存库一样的状态
 // checkout 实际上是用版本库里的版本替换工作区的版本
