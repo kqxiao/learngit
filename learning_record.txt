@@ -37,3 +37,4 @@ $ git remote rm <name>  // 解除与远程库的关联
 
 
 
+给77演示git
