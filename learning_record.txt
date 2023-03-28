@@ -35,5 +35,5 @@ $ git push origin main
 $ git remote -v     // 查看远程库信息
 $ git remote rm <name>  // 解除与远程库的关联
 
-给老侯演示git
+
 
